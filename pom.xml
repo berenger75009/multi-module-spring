@@ -3,16 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework</groupId>
-    <artifactId>gs-multi-module</artifactId>
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.4.0</version>
+    </parent>
+
+    <groupId>com.microservice</groupId>
+    <artifactId>multi-module</artifactId>
     <version>0.1.0</version>
     <packaging>pom</packaging>
-
 
     <modules>
         <module>library</module>
         <module>application</module>
+        <module>service</module>
+        <module>web</module>
+        <module>config</module>
+        <module>api</module>
     </modules>
-
 
 </project>

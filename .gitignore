@@ -1,1 +1,6 @@
-/.idea/
+/.idea/**
+/**/target/
+/api/api.iml
+/web/web.iml
+/service/service.iml
+/config/config.iml
